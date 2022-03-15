@@ -1,0 +1,63 @@
+
+
+.container {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    }
+    
+    .container div {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+
+    }
+    
+    
+    .container div.active {
+    display: flex;
+    background-color: purple;
+    color: white;
+    font-size: xxx-large;
+    padding: 20px 8px ;
+    justify-content: left;
+    }
+
+    .container div.S {
+    display: flex;
+    background-color: white;
+    outline: solid ;
+    height: 20px;
+    width: 200px;
+    border-radius: 1%;
+    }
+
+    .container div.Ld {
+    display: flex;
+    font-size: 18px ;
+    text-align: left;
+    margin-top: 20px;
+    }
+
+    .container div.Sb {
+        flex-direction:column;
+        border-collapse: collapse;
+        margin-right: 50px;
+        align-content:;
+        }
+
+    .container div.Vc {
+    display: flex;
+    font-size: 18px;
+    }
+
+    .container div.cart {
+    margin-left: 110px;
+    size: 25px;
+    margin-top: -20px;
+    
