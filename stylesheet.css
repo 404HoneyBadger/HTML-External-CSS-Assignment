@@ -37,27 +37,27 @@
     border-radius: 1%;
     }
 
-    .container div.Ld {
-    display: flex;
-    font-size: 18px ;
-    text-align: left;
-    margin-top: 20px;
-    }
+    
 
     .container div.Sb {
+        display: flex;
         flex-direction:column;
         border-collapse: collapse;
         margin-right: 50px;
-        align-content:;
+        align-self: center;
         }
 
-    .container div.Vc {
-    display: flex;
-    font-size: 18px;
-    }
+        .container div.Ld {
+            font-size: 18px ;
+            }
+        .container div.Vc {
+            font-size: 18px;
+            }
+        
+        .container div.cart {
+        margin-left: 110px;
+        size: 25px;
+        margin-top: -20px;
 
-    .container div.cart {
-    margin-left: 110px;
-    size: 25px;
-    margin-top: -20px;
+    
     
